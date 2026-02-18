@@ -44,7 +44,10 @@ public class ClsTamago {
     //methodes
     public Boolean isAlive(){
         if(energy<=0 || hunger>=100 || happiness<=0){
-            System.out.println("ton Tamagochi "+getName()+" is dead.");
+            System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            System.out.println("  YOUR TAMAGOCHI "+getName()+" is DEAD!!.");
+            System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+
             return false;
         }
         return true;
@@ -60,7 +63,7 @@ public class ClsTamago {
         if(hunger>100)hunger=100;
         if(happiness<0)happiness=0;
 
-        System.out.println("ClsTamago func " +getName()+".timeLapse  :OK");
+        /*System.out.println("ClsTamago func " +getName()+".timeLapse  :OK");*/
 
     }
 
@@ -74,7 +77,8 @@ public class ClsTamago {
         if(happiness>100)happiness=100;
         if(energy>100)energy=100;
 
-        System.out.println("ClsTamago func " +getName()+".eat  :OK");
+        /*System.out.println("ClsTamago func " +getName()+".eat  :OK");*/
+        System.out.println("°.O");
 
     }
     public void sleep(){
@@ -87,7 +91,9 @@ public class ClsTamago {
         if(happiness>100)happiness=100;
 
 
-        System.out.println("ClsTamago func " +getName()+".sleep  :OK");
+        /*System.out.println("ClsTamago func " +getName()+".sleep  :OK");*/
+        System.out.println("*.+");
+
 
     }
     public void play(){
@@ -99,16 +105,15 @@ public class ClsTamago {
         if(happiness>100)happiness=100;
         if(energy<0)energy=0;
        
-        System.out.println("ClsTamago func " +getName()+".play  :OK");
+        /*System.out.println("ClsTamago func " +getName()+".play  :OK");*/
+        System.out.println("<3");
+
 
     }
 
 
     public void status(){
-        System.out.println("ClsTamago func " +getName()+".status  :OK");
-        System.out.println("Name: "+getName());
-        System.out.println("Energy: "+getEnergy());
-        System.out.println("Hunger: "+getHunger());
-        System.out.println("Happiness: "+getHappiness());
+        /*System.out.println("ClsTamago func " +getName()+".status  :OK");*/
+        System.out.println(" Name: "+getName()+" Energy: "+getEnergy()+" Hunger: "+getHunger()+" Happiness: "+getHappiness());
     }
 }
