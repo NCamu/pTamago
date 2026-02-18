@@ -1,0 +1,11 @@
+install:
+winget install Microsoft.OpenJDK.21
+
+java -version
+javac -version
+
+compilation:
+javac -d bin src/*.java
+
+lancement/exe:
+java -cp bin Main

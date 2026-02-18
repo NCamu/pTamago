@@ -1,0 +1,142 @@
+VIE TOTALE (LUCA ~4 Ga)
+┃
+┣━━ Domain Bactéries ------------------------------------------------------------ Bactéries (Cyanobactéries, Proteobactéries...)
+┣━━ Poriferia---------------------------------------------------------------------Poriferia(Éponges)
+┣━━ Cnidaires ------------------------------------------------------------------- Cnidaires (méduses, coraux...)
+┃
+┗━━ Bilatériens
+┣━━ Protostomiens
+┃   ┣━━ Nématodes --------------------------------------------------------------- Nématodes (vers ronds)
+┃   ┣━━ Platyhelminthes --------------------------------------------------------- Platyhelminthes(plathelminthes)
+┃   ┃
+┃   ┣━━ Arthropodes
+┃   ┃   ┣━━ Chélicérates -------------------------------------------------------- Chélicérates(arachnides, limules...)
+┃   ┃   ┣━━ Myriapodes ---------------------------------------------------------- Myriapodes(mille-pattes...)
+┃   ┃   ┗━━ Pancrustacés
+┃   ┃       ┣━━ Crustacés --------------------------------------------------------Crustacés(crevettes, crabes...)
+┃   ┃       ┗━━ Hexapodes ------------------------------------------------------- Hexapodes(insectes...)
+┃   ┃
+┃   ┗━━ Mollusques
+┃       ┣━━ Gastéropodes -------------------------------------------------------- Gastéropodes(escargots...)
+┃       ┣━━ Bivalves ------------------------------------------------------------ Bivalves(huîtres...)
+┃       ┗━━ Céphalopodes -------------------------------------------------------- Céphalopodes(pieuvres...)
+┃
+┗━━ Deutérostomiens
+┣━━ Échinodermes ---------------------------------------------------------------- Échinodermes(étoiles de mer, oursins...)
+┃
+┗━━ Cordés
+┣━━ Tuniciers---------------------------------------------------------------------Tuniciers(Tunicata)
+┃
+┗━━ Vertébrés
+┃
+┗━━ Poissons à mâchoires
+┣━━ Placodermes -------------------------------------------------------- -------- Placodermes(Dunkleosteus)//requin plaquoderme
+┣━━ Chondrichthyens ---------------------------------------------------- -------- Chondrichthyens(requins...)
+┃
+┗━━ Poissons osseux
+┣━━ Actinoptérygiens -------------------------------------------------------------Actinoptérygiens(poisson)
+┃
+┗━━ Sarcoptérygiens
+┣━━ Coelacanthes------------------------------------------------------------------Coelacanthes(Coelacanthes)
+┣━━ Dipnoans ---------------------------------------------------------------------Dipnoans(poissons pulmonés)
+┃
+┗━━ Tétrapodomorphes
+┗━━ Tétrapodes
+┣━━ Amphibiens -------------------------------------------------------------------Amphibiens(grenouille, salamandre, axolote,)
+┃
+┗━━ Amniotes
+┣━━ Monotrèmes
+┃   ┣━━ Ornithorhynchidae----------------------------------------------------------Ornithorhynchidae(platypus)
+┃   ┗━━ Tachyglossidae ----------------------------------------------------------- Tachyglossidae(échidnés)
+┃
+┣━━ Marsupiaux
+┃   ┣━━ Diprotodontia -------------------------------------------------------------Diprotodontia(kangourous, koalas)
+┃   ┗━━ Dasyuromorphia ------------------------------------------------------------Dasyuromorphia(diables Tasmanie)
+┃
+┗━━ Thériens  
+┣━━ Synapsides basaux--------------------------------------------------------------Synapsides(Dimetrodon, Edaphosaurus...)
+┣━━ Thérapsides  
+┃   ┣━━ Xenarthra
+┃   ┃   ┣━━ Cingulata -------------------------------------------------------------Cingulata(tatous/armadillos)
+┃   ┃   ┗━━ Pilosa
+┃   ┃       ┣━━ Anteaters ---------------------------------------------------------Anteaters(fourmiliers)
+┃   ┃       ┗━━ Paresseux----------------------------------------------------------Paresseux(Bradypus )
+┃   ┃
+┃   ┣━━ Afrotheria (Afrothériens)
+┃   ┃       ┣━━ Proboscidea
+┃   ┃       ┃   ┣━━ Elephantidae →--------------------------------------------------Elephantidae(Loxodonta, Elephas) (éléphants d'Afrique, éléphants d'Asie)
+┃   ┃       ┃   ┗━━ Mammuthus----------------------------------------------- -------Mammuthus(mammouths)
+┃   ┃       ┣━━ Siréniens---------------------------------------------------------- Siréniens(lamantins...)
+┃   ┃       ┗━━ Hyracoïdes----------------------------------------------------------Hyracoïdes(damans)
+┃   ┃
+┃   ┣━━ Euarchontoglires
+┃   ┃   ┣━━ Rongeurs (Rodentia)
+┃   ┃   ┃   ┣━━ Castorimorpha → Castoridés-------------------------------------------Castorimorpha(castors)
+┃   ┃   ┃   ┣━━ Hystricomorpha → Caviidés------------------------------------------- Hystricomorpha(capybaras)
+┃   ┃   ┃   ┣━━ Myomorpha -------------------------------------------------------- --Myomorpha(écureuils...)
+┃   ┃   ┃
+┃   ┃   ┗━━ Primates
+┃   ┃       ┣━━ Strepsirrhini ------------------------------------------- ---------- Strepsirrhini(Lémuriens) (Lemuridae)
+┃   ┃       ┗━━ Haplorrhini
+┃   ┃           ┣━━ Platyrhiniens -------------------------------- ------------------Platyrhiniens(Ouistitis) (Callitrichidae)
+┃   ┃           ┗━━ Hominidés ------------------------------------------- ---------  Hominidés (Homo sapiens)
+┃   ┃
+┃   ┗━━ Laurasiatheria
+┃       ┣━━ Carnivora
+┃       ┃   ┣━━ Féliformes ----------------------------------------------------------Féliformes(chats, hyènes...)
+┃       ┃   ┗━━ Caniformes
+┃       ┃       ┣━━ Caniformes--------------------------------------------------- ---Caniformes(chiens, ours, phoques...)
+┃       ┃       ┗━━ Talpidae -------------------------------------------- -----------Talpidae(Taupes)
+┃       ┃
+┃       ┣━━ Perissodactyla
+┃       ┃   ┣━━ Rhinocérotidés-------------------------------------------------------Rhinocérotidés(rhinocéros...)
+┃       ┃   ┣━━ Tapiridés -----------------------------------------------------------Tapiridés(tapirs...)
+┃       ┃   ┗━━ Equidae -------------------------------------------------------------Equidae(chevaux, zèbres, ânes...)
+┃       ┃
+┃       ┗━━ Artiodactyla
+┃           ┣━━ Suiformes --------------------------------------------- --------------Suiformes(porcs...)
+┃           ┣━━ Tylopodes --------------------------------------------- --------------Tylopodes(chameaux...)
+┃           ┣━━ Ruminantia (Ruminants)
+┃           ┃   ┣━━ Tragulidés--------------------------------------------------------Tragulidés(tragules)
+┃           ┃   ┣━━ Giraffidés--------------------------------------------------------Giraffidés(girafes)
+┃           ┃   ┣━━ Antilocapridae ---------------------------------------------------Antilocapridae(pronghorns)
+┃           ┃   ┣━━ Moschidae -------------------------------------------- -----------Moschidae (mousse)//petit cerfs
+┃           ┃   ┣━━ Cervidés ----------------------------------------------------- - -Cervidés(cerfs, daims, rennes...)
+┃           ┃   ┗━━ Bovidés ---------------------------------------------- --------- -Bovidés(bovins, antilopes...)
+┃           ┃
+┃           ┗━━ Cetancodonta
+┃                   ┣━━ Hippopotamidae------------------------------------------------Hippopotamidae(hippopotames)
+┃                   ┗━━ Cetacea
+┃                           ┣━━ Mysticeti---------------------------------------------Mysticeti(rorales, baleines franches...)
+┃                           ┗━━ Odontoceti--------------------------------------------Odontoceti(dauphins, orques, cachalots...)
+┃
+┗━━ Sauropsida (Reptiles)
+┣━━ Chéloniens  ----------------------------------------------------------------------Chéloniens(Tortues)
+┣━━ Lepidosauriens
+┃   ┣━━ Squamates---------------------------------------------------------- -----------Squamates(Serpents/lézards)
+┃   ┣━━ Mosasaurus ------------------------------------------------ ------------------ Mosasaurus(Mosasauridae)
+┃   ┗━━ Ichthyosaures -------------------------------------------- ------------------- Ichthyosaures(Ichthyosaures)
+┃
+┗━━ Archosauriens
+┣━━ Crocodiliens------------------------------------------------------------ ----------Crocodiliens(Crocodile, caillman, aligator)
+┣━━ Pterosaures ----------------------------------------------- ---------------------- Pterosaures(ptérodactyles)
+┃
+┣━━ Dinosaures (éteints)
+┃   ┣━━ Saurischiens
+┃   ┃   ┣━━ Sauropodomorphes →---------------------------------------------------------Sauropodomorphes(Diplodocus)
+┃   ┃   ┗━━ Theropodes
+┃   ┃       ┣━━ Tyrannosaurus ---------------------------------------------------------Tyrannosauridae(Tyrannosaurus)
+┃   ┃       ┣━━ Spinosaurus --------------------------------------------- -------------Spinosauridae(Spinosaurus)
+┃   ┃       ┣━━ Allosaurus ------------------------------------------------------------Allosauridae(Allosaurus)
+┃   ┃       ┣━━ Velociraptor ----------------------------------------------------------Dromaeosauridae(Velociraptor)
+┃   ┃       ┗━━ Gallimimus ----------------------------------------------- ------------Ornithomimidae(Gallimimus)
+┃   ┃
+┃   ┗━━ Ornithischiens
+┃       ┣━━ Stegosaurus -------------------------------------------------- ----------- Stegosauria(Stegosaurus)
+┃       ┣━━ Rachipachylosaurus ------------------------------------------- ------------Hadrosauridae(Rachipachylosaurus)
+┃       ┗━━ Triceratops -------------------------------------------------- ------------Ceratopsidae(Triceratops)
+┃
+┣━━ Oiseaux (dinosaures survivants)
+┃   ┗━━ ------------------------------------------- -----------------------------------(Archaeopteryx)  (1er oiseau)
+┃
+┗━━ -------------------------------------------- ------------------------------------- (Plesiosaures) 
