@@ -140,3 +140,141 @@ VIE TOTALE (LUCA ~4 Ga)
 ┃   ┗━━ ------------------------------------------- -----------------------------------(Archaeopteryx)  (1er oiseau)
 ┃
 ┗━━ -------------------------------------------- ------------------------------------- (Plesiosaures) 
+
+
+
+ORDRE DE PARUSSION:
+VIE TOTALE (LUCA ~4 Ga)	(Origine de la vie)
+
+Domain Bactéries--------------------------------(Cyanobactéries, Proteobactéries...)
+Poriferia---------------------------------------(Éponges)
+Cnidaires---------------------------------------(méduses, coraux...)
+Platyhelminthes---------------------------------(vers plats)
+Nématodes---------------------------------------(vers ronds)
+Échinodermes------------------------------------(étoiles de mer, oursins...)
+Mollusques Gastéropodes-------------------------(escargots...)
+Mollusques Bivalves-----------------------------(huîtres...)
+Mollusques Céphalopodes-------------------------(pieuvres...)
+
+Arthropodes Chélicérates------------------------(arachnides, limules...)
+Arthropodes Myriapodes--------------------------(mille-pattes...)
+Arthropodes Crustacés---------------------------(crevettes, crabes...)
+Tuniciers---------------------------------------(Tunicata)
+Arthropodes Hexapodes---------------------------(insectes...)
+Placodermes-------------------------------------(Dunkleosteus) //requin plaquoderme
+Chondrichthyens---------------------------------(requins...)
+Actinoptérygiens--------------------------------(poisson)
+Coelacanthes------------------------------------(Coelacanthes)
+
+Dipnoans----------------------------------------(poissons pulmonés)
+Amphibiens--------------------------------------(grenouille, salamandre, axolote)
+Synapsides basaux-------------------------------(Dimetrodon, Edaphosaurus...)
+Chéloniens--------------------------------------(Tortues)
+Ichthyosaures-----------------------------------(Ichthyosaures)
+Plesiosaures------------------------------------(Plesiosaures)
+Squamates---------------------------------------(Serpents/lézards)
+Crocodiliens------------------------------------(Crocodile, caïman, alligator)
+Pterosaures-------------------------------------(ptérodactyles)
+Sauropodomorphes--------------------------------(Diplodocus)
+Allosaurus--------------------------------------(Allosauridae)
+Archaeopteryx-----------------------------------(1er oiseau)
+Stegosaurus-------------------------------------(Stegosaurus)
+Tyrannosaurus-----------------------------------(Tyrannosaurus)
+Spinosaurus-------------------------------------(Spinosaurus)
+Triceratops-------------------------------------(Triceratops)
+Rachipachylosaurus------------------------------(Hadrosauridae)
+Velociraptor------------------------------------(Velociraptor)
+Gallimimus--------------------------------------(Gallimimus)
+Mosasaurus--------------------------------------(Mosasauridae)
+
+Ornithorhynchidae-------------------------------(platypus/ornithorynque)
+Tachyglossidae----------------------------------(échidnés)
+Dasyuromorphia----------------------------------(diables Tasmanie)
+Diprotodontia-----------------------------------(kangourous, koalas)
+Cingulata---------------------------------------(tatous/armadillos)
+Anteaters---------------------------------------(fourmiliers)
+Paresseux---------------------------------------(Bradypus)
+Hyracoïdes--------------------------------------(damans)
+Siréniens---------------------------------------(lamantins...)
+Equidae-----------------------------------------(chevaux, zèbres, ânes...)
+Tapiridés---------------------------------------(tapirs...)
+Rhinocérotidés----------------------------------(rhinocéros...)
+Caniformes--------------------------------------(chiens, ours, phoques...)
+Féliformes--------------------------------------(chats, hyènes...)
+Talpidae----------------------------------------(Taupes)
+Castorimorpha-----------------------------------(castors)
+Hystricomorpha----------------------------------(capybaras)
+Myomorpha---------------------------------------(écureuils...)
+Strepsirrhini-----------------------------------(Lémuriens)
+Suiformes---------------------------------------(porcs...)
+Tylopodes---------------------------------------(chameaux...)
+Tragulidés--------------------------------------(tragules)
+Giraffidés--------------------------------------(girafes)
+Antilocapridae----------------------------------(pronghorns)
+Moschidae---------------------------------------(mousse) //petit cerf
+Cervidés----------------------------------------(cerfs, daims, rennes...)
+Bovidés-----------------------------------------(bovins, antilopes...)
+Hippopotamidae----------------------------------(hippopotames)
+Mysticeti---------------------------------------(rorquals, baleines franches...)
+Odontoceti--------------------------------------(dauphins, orques, cachalots...)
+Platyrhiniens-----------------------------------(Ouistitis)
+Mammuthus---------------------------------------(mammouths)
+Elephantidae------------------------------------(éléphants d'Afrique/Asie)
+Hominidés---------------------------------------(Homo sapiens)
+
+
+┗━━┣━━┃
+TAMAGO:
+
+baby                                    BABY    blob
+ ┣━━si faim "gaki"                      CHILD   gaki
+ ┃      ┣━━si faim ""                   ADULT   meduse
+ ┃      ┃      ┣━━si faim ""            ELDER   
+ ┃      ┃      ┣━━si pas d'energi ""    ELDER  
+ ┃      ┃      ┗━━si pas heureux ""     ELDER   
+ ┃      ┃
+ ┃      ┣━━si pas d'energi ""           ADULT
+ ┃      ┃      ┣━━si faim ""            ELDER
+ ┃      ┃      ┣━━si pas d'energi ""    ELDER
+ ┃      ┃      ┗━━si pas heureux ""     ELDER
+ ┃      ┃
+ ┃      ┗━━si pas heureux ""            ADULT
+ ┃             ┣━━si faim ""            ELDER
+ ┃             ┣━━si pas d'energi ""    ELDER
+ ┃             ┗━━si pas heureux ""     ELDER
+ ┃  
+ ┃  
+ ┣━━si pas d'energie "sloth"            CHILD
+ ┃      ┣━━si faim ""                   ADULT
+ ┃      ┃      ┣━━si faim ""            ELDER
+ ┃      ┃      ┣━━si pas d'energi ""    ELDER
+ ┃      ┃      ┗━━si pas heureux ""     ELDER
+ ┃      ┃
+ ┃      ┣━━si pas heureux ""            ADULT
+ ┃      ┃      ┣━━si faim ""            ELDER
+ ┃      ┃      ┣━━si pas d'energi ""    ELDER
+ ┃      ┃      ┗━━si pas heureux ""     ELDER
+ ┃      ┃
+ ┃      ┗━━si pas heureux ""            ADULT
+ ┃             ┣━━si faim ""            ELDER
+ ┃             ┣━━si pas d'energi ""    ELDER
+ ┃             ┗━━si pas heureux ""     ELDER
+ ┃  
+ ┃     
+ ┗━━si pas heureux "ratel"              CHILD
+        ┣━━si faim ""                   ADULT
+        ┃      ┣━━si faim ""            ELDER
+        ┃      ┣━━si pas d'energi ""    ELDER
+        ┃      ┗━━si pas heureux ""     ELDER
+        ┃
+        ┣━━si pas heureux ""            ADULT
+        ┃      ┣━━si faim ""            ELDER
+        ┃      ┣━━si pas d'energi ""    ELDER
+        ┃      ┗━━si pas heureux ""     ELDER
+        ┃
+        ┗━━si pas heureux ""            ADULT
+               ┣━━si faim ""            ELDER
+               ┣━━si pas d'energi ""    ELDER
+               ┗━━si pas heureux ""     ELDER
+        
+

@@ -5,13 +5,17 @@ public class Main{
     Scanner scanner = new Scanner(System.in);
     System.out.println("TAMAGOCHI GAME");
     System.out.println("->PUT A NAME FOR YOUR TAMAGOCHI:");
-    String name = scanner.nextLine();
+   String name = scanner.nextLine();
 
     ClsTamago Tamago1 = new ClsTamago(name);
     
-    while(Tamago1.isAlive()){
+    while(true){
 
-        Tamago1.timeLapse();
+                Tamago1.timeLapse();
+
+        if(!Tamago1.isAlive()){
+            break;
+        }
 
         System.out.println("##################################################");
         Tamago1.status();
@@ -20,29 +24,26 @@ public class Main{
         System.out.println("----------------------MENU------------------------");
         System.out.println("          1. Feed  || 2. Sleep || 3. Play");
         System.out.println("--------------------------------------------------");
-        System.out.println("chose the way to interact whith " +Tamago1.getName()+", press 1, 2 or 3 :");
+        System.out.println("chose the way to interact whith " +Tamago1.getName()+", press 1,2 or 3 :");
 
 
         try {
-        Thread.sleep(5000); // 1000 ms = 1 seconde
+        Thread.sleep(1000); // 1000 ms = 1 seconde
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         int choice = scanner.nextInt(); 
+
         switch(choice){
-            case 1:
-                Tamago1.eat();
-                break;
-            case 2:
-                Tamago1.sleep();
-                break;
-            case 3:
-                Tamago1.play();
-                break;
+            case 1:Tamago1.eat();break;
+            case 2:Tamago1.sleep();break;
+            case 3:Tamago1.play();break;
             default:
                 System.out.println(" ");
         }
-
+        if(!Tamago1.isAlive()){
+            break;
+        }
     }
     scanner.close();
     }
