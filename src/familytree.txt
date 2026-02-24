@@ -151,10 +151,10 @@ Poriferia---------------------------------------(Éponges)
 Cnidaires---------------------------------------(méduses, coraux...)
 Platyhelminthes---------------------------------(vers plats)
 Nématodes---------------------------------------(vers ronds)
-Échinodermes------------------------------------(étoiles de mer, oursins...)
+Échinodermes------------------------------------(étoiles de mer, oursins...) -
 Mollusques Gastéropodes-------------------------(escargots...)
 Mollusques Bivalves-----------------------------(huîtres...)
-Mollusques Céphalopodes-------------------------(pieuvres...)
+Mollusques Céphalopodes-------------------------(pieuvres...) -
 
 Arthropodes Chélicérates------------------------(arachnides, limules...)
 Arthropodes Myriapodes--------------------------(mille-pattes...)
@@ -223,58 +223,121 @@ Elephantidae------------------------------------(éléphants d'Afrique/Asie)
 Hominidés---------------------------------------(Homo sapiens)
 
 
+
+
+####################################
 ┗━━┣━━┃
 TAMAGO:
 
 baby                                    BABY    blob
- ┣━━si faim "gaki"                      CHILD   gaki
- ┃      ┣━━si faim ""                   ADULT   meduse
- ┃      ┃      ┣━━si faim ""            ELDER   
- ┃      ┃      ┣━━si pas d'energi ""    ELDER  
- ┃      ┃      ┗━━si pas heureux ""     ELDER   
+ ┃
+ ┃
+ ┣━━si faim "gaki"                      CHILD    Cnidaires
  ┃      ┃
- ┃      ┣━━si pas d'energi ""           ADULT
- ┃      ┃      ┣━━si faim ""            ELDER
- ┃      ┃      ┣━━si pas d'energi ""    ELDER
- ┃      ┃      ┗━━si pas heureux ""     ELDER
+ ┃      ┣━━si faim ""                   ADULT    Arthropodes  
+ ┃      ┃      ┣━━si faim ""            ELDER    Dipnoans
+ ┃      ┃      ┣━━si pas d'energie ""   ELDER    Dunkleosteus
+ ┃      ┃      ┗━━si pas heureux ""     ELDER    Tunicata
  ┃      ┃
- ┃      ┗━━si pas heureux ""            ADULT
- ┃             ┣━━si faim ""            ELDER
- ┃             ┣━━si pas d'energi ""    ELDER
+ ┃      ┣━━si pas d'energie ""          ADULT    Tunicata
+ ┃      ┃      ┣━━si faim ""            ELDER    grenouille
+ ┃      ┃      ┣━━si pas d'energie ""   ELDER    Chéloniens tortue
+ ┃      ┃      ┗━━si pas heureux ""     ELDER    Hexapodes
+ ┃      ┃
+ ┃      ┗━━si pas heureux ""            ADULT    Dunkleosteus
+ ┃             ┣━━si faim ""            ELDER    Dimetrodon
+ ┃             ┣━━si pas d'energie ""   ELDER
  ┃             ┗━━si pas heureux ""     ELDER
  ┃  
  ┃  
- ┣━━si pas d'energie "sloth"            CHILD
+ ┣━━si pas d'energie "sloth"            CHILD  Échinodermes(étoiles de mer, oursins...)
+ ┃      ┃
  ┃      ┣━━si faim ""                   ADULT
  ┃      ┃      ┣━━si faim ""            ELDER
- ┃      ┃      ┣━━si pas d'energi ""    ELDER
+ ┃      ┃      ┣━━si pas d'energie ""   ELDER
  ┃      ┃      ┗━━si pas heureux ""     ELDER
  ┃      ┃
- ┃      ┣━━si pas heureux ""            ADULT
+ ┃      ┣━━si pas d'energie ""          ADULT  Chéloniens tortue
  ┃      ┃      ┣━━si faim ""            ELDER
- ┃      ┃      ┣━━si pas d'energi ""    ELDER
+ ┃      ┃      ┣━━si pas d'energie ""   ELDER
  ┃      ┃      ┗━━si pas heureux ""     ELDER
  ┃      ┃
  ┃      ┗━━si pas heureux ""            ADULT
  ┃             ┣━━si faim ""            ELDER
- ┃             ┣━━si pas d'energi ""    ELDER
+ ┃             ┣━━si pas d'energie ""   ELDER
  ┃             ┗━━si pas heureux ""     ELDER
  ┃  
  ┃     
- ┗━━si pas heureux "ratel"              CHILD
-        ┣━━si faim ""                   ADULT
+ ┗━━si pas heureux "ratel"              CHILD  Céphalopodes (pieuvres...)
+        ┃
+        ┣━━si faim ""                   ADULT  
         ┃      ┣━━si faim ""            ELDER
-        ┃      ┣━━si pas d'energi ""    ELDER
+        ┃      ┣━━si pas d'energie ""   ELDER
         ┃      ┗━━si pas heureux ""     ELDER
         ┃
-        ┣━━si pas heureux ""            ADULT
+        ┣━━si pas d'energie ""          ADULT
         ┃      ┣━━si faim ""            ELDER
-        ┃      ┣━━si pas d'energi ""    ELDER
+        ┃      ┣━━si pas d'energie ""   ELDER
         ┃      ┗━━si pas heureux ""     ELDER
         ┃
         ┗━━si pas heureux ""            ADULT
                ┣━━si faim ""            ELDER
-               ┣━━si pas d'energi ""    ELDER
+               ┣━━si pas d'energie ""   ELDER
                ┗━━si pas heureux ""     ELDER
         
+###################################################################
+###################################################################
+
+BABY                                    BABY    Blob (LUCA)                                0-0-0
+ ┃
+ ┣━━ si faim "GAKI"                     CHILD   Cnidaires (Méduses)                        A-0-0
+ ┃    ┃
+ ┃    ┣━━ si faim (Niche Articulés)     ADULT   Arthropodes Chélicérates                   A-A-0
+ ┃    ┃    ┣━━ si faim                  ELDER   Arthropodes Hexapodes (Insectes)           A-A-A
+ ┃    ┃    ┣━━ si pas d'energie         ELDER   Arthropodes Crustacés                      A-A-B
+ ┃    ┃    ┗━━ si pas heureux           ELDER   Arthropodes Myriapodes (Mille-pattes)      A-A-C
+ ┃    ┃
+ ┃    ┣━━ si pas d'energie (Stase)      ADULT   Tunicata (Tuniciers)                       A-B-0
+ ┃    ┃    ┣━━ si faim                  ELDER   Amphibiens (Grenouille)                    A-B-A
+ ┃    ┃    ┣━━ si pas d'energie         ELDER   Coelacanthes                               A-B-B
+ ┃    ┃    ┗━━ si pas heureux           ELDER   Dipnoans (Poissons pulmonés)               A-B-C
+ ┃    ┃
+ ┃    ┗━━ si pas heureux (Féroce)       ADULT   Placodermes (Dunkleosteus)                 A-C-0
+ ┃         ┣━━ si faim                  ELDER   Synapsides basaux (Dimetrodon)             A-C-A
+ ┃         ┣━━ si pas d'energie         ELDER   Chondrichthyens (Requins)                  A-C-B
+ ┃         ┗━━ si pas heureux           ELDER   Allosaurus                                 A-C-C
+ ┃
+ ┣━━ si pas d'energie "SLOTH"           CHILD   Échinodermes (Oursins)                     B-0-0
+ ┃    ┃
+ ┃    ┣━━ si faim (Niche Coquille)      ADULT   Mollusques Gastéropodes                    B-A-0
+ ┃    ┃    ┣━━ si faim                  ELDER   Mollusques Céphalopodes (Pieuvres)         B-A-A
+ ┃    ┃    ┣━━ si pas d'energie         ELDER   Mollusques Bivalves (Huîtres)              B-A-B
+ ┃    ┃    ┗━━ si pas heureux           ELDER   Mosasaurus                                 B-A-C
+ ┃    ┃
+ ┃    ┣━━ si pas d'energie (Lenteur)    ADULT   Chéloniens (Tortues)                       B-B-0
+ ┃    ┃    ┣━━ si faim                  ELDER   Paresseux (Bradypus)                       B-B-A
+ ┃    ┃    ┣━━ si pas d'energie         ELDER   Siréniens (Lamantins)                      B-B-B
+ ┃    ┃    ┗━━ si pas heureux           ELDER   Glyptodon (Cingulata/Tatous)               B-B-C
+ ┃    ┃
+ ┃    ┗━━ si pas heureux (Lourd)        ADULT   Sauropodomorphes (Diplodocus)              B-C-0
+ ┃         ┣━━ si faim                  ELDER   Stegosaurus                                B-C-A
+ ┃         ┣━━ si pas d'energie         ELDER   Triceratops                                B-C-B
+ ┃         ┗━━ si pas heureux           ELDER   Ankylosaure                                B-C-C
+ ┃
+ ┗━━ si pas heureux "RATEL"             CHILD   Platyhelminthes (Vers plats)               C-0-0
+      ┃
+      ┣━━ si faim (Niche Chasseur)      ADULT   Squamates (Serpents/Lézards)               C-A-0
+      ┃    ┣━━ si faim                  ELDER   Velociraptor                               C-A-A
+      ┃    ┣━━ si pas d'energie         ELDER   Crocodiliens                               C-A-B
+      ┃    ┗━━ si pas heureux           ELDER   Tyrannosaurus                              C-A-C
+      ┃
+      ┣━━ si pas d'energie (Primitif)   ADULT   Monotrèmes (Ornithorynque)                 C-B-0
+      ┃    ┣━━ si faim                  ELDER   Marsupiaux (Kangourous)                    C-B-A
+      ┃    ┣━━ si pas d'energie         ELDER   Échidnés                                   C-B-B
+      ┃    ┗━━ si pas heureux           ELDER   Diables de Tasmanie                        C-B-C
+      ┃
+      ┗━━ si pas heureux (Super-préda)  ADULT   Caniformes/Féliformes                      C-C-0
+           ┣━━ si faim                  ELDER   Hominidés (Sapiens)                        C-C-A
+           ┣━━ si pas d'energie         ELDER   Odontoceti (Orques)                        C-C-B
+           ┗━━ si pas heureux           ELDER   Spinosaurus                                C-C-C
 

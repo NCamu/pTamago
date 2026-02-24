@@ -1,0 +1,72 @@
+public class AssetG {
+
+public void Spinosaurus (){    
+System.out.println("
+
+                /\  
+               /  \ 
+            _ /====\_/\==
+       _ _/   \ \  /
+               /   ;
+              \_
+");
+System.out.println("
+
+                /\  
+               /  \ 
+            _ /====\_/\==
+       \ _/   \ \  /
+               /   ;
+              \_
+");
+
+System.out.println("
+
+                /\  
+               /  \ 
+            _ /====\_/\--
+       _ _/   \ \  /   \
+               /   ;
+              \_
+");
+System.out.println("
+
+                /\  
+               /  \ 
+            _ /====\_/\--
+       \ _/   \ \  /   \
+               /   ;
+              \_
+");
+
+
+public void orca(){
+System.out.println("
+      
+                __
+        __,---/ (-.__
+       ( (o)         `===.___ 
+        `=.__\_\____,-'     \_\
+            
+
+");}
+public void ominidae(){
+System.out.println("
+
+  .-.
+ ( 6 6)
+  \ =,
+ /| |\
+/ | | \
+");
+public void chat(){
+System.out.println("
+
+
+         /\_/\
+        ( o.o )
+         > ^ <
+        /     / 
+     \__\ ||| 
+")
+}}
